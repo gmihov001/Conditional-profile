@@ -40,7 +40,7 @@ function render(variables = {}) {
             <li><a href="${variables.twitter}"><i class="fa fa-twitter"></i></a></li>
             <li><a href="${variables.github}"><i class="fa fa-github"></i></a></li>
             <li><a href="${variables.linkedin}"><i class="fa fa-linkedin"></i></a></li>
-            <li><a href="https://instagram.com/alesanchezr"><i class="fa fa-instagram"></i></a></li>
+            <li><a href="${variables.instagram}"><i class="fa fa-instagram"></i></a></li>
           </ul>
         </div>
     `;
