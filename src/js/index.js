@@ -39,8 +39,6 @@ function render(variables = {}) {
           <ul class="${variables.socialMediaPosition}">
             <li><a href="${
               variables.twitter
-                ? variables.twitter
-                : alert("Twitter account not set")
             }"><i class="fa fa-twitter"></i></a></li>
             <li><a href="${
               variables.github
