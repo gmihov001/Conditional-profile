@@ -68,15 +68,15 @@ window.onload = function() {
     // social media bar position (left or right)
     socialMediaPosition: "left",
     // social media usernames
-    twitter: null,
+    twitter: "",
     github: "alesanchezr",
-    linkedin: null,
-    instagram: null,
-    name: null,
-    lastname: null,
-    role: null,
-    country: null,
-    city: null
+    linkedin: "",
+    instagram: "",
+    name: "",
+    lastname: "",
+    role: "",
+    country: "",
+    city: ""
   };
   render(window.variables); //render the card for the first time
 
